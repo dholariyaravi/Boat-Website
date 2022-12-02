@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+.main{
+  border-radius: 20px;
+  box-shadow: 0 4px 10px 0 rgba(208, 188, 188, 0.589), 0 6px 20px 0 rgba(207, 183, 183, 0.817);
+  margin: 10px;
+ 
+}
+.main:hover{
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.589), 0 6px 20px 0 rgba(0, 0, 0, 0.817);
+  transition: all 0.3s linear;
+  transform: scale(1.03);  
+}
+
+.rajan1{
+  box-shadow: 0 4px 9px 0 rgba(150, 111, 111, 0.5), 0 6px 20px 0 rgba(111, 103, 103, 0.596);
+  border-radius: 20px;
+  border: 3px solid;
+  background-color: black;
+}
+.main11{
+  border-radius: 20px;
+  margin: 10px;
+}
+.main11:hover{
+  transition: all 0.3s linear;
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.589), 0 6px 20px 0 rgba(0, 0, 0, 0.817);
+}
+.bodar{
+  border-radius: 20px;
+}
+.show{
+  text-shadow: 2px 2px 5px red;  
+}
+.show:hover{ 
+  text-shadow: 2px 2px 5px rgb(127, 108, 176);  
+}
+.boder1{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; 
+}
+.class:hover{
+  transition: all 0.4s linear;  
+  transform: scale(1.03); 
+}
+.decoration{
+  text-decoration:none ;
+}
