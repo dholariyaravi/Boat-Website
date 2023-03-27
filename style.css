@@ -1,6 +1,13 @@
 *{
   box-sizing: border-box;
 }
+button, input, optgroup, select, textarea {
+  
+  font-size: inherit;
+
+}
+
+ 
 .main{
   border-radius: 20px;
   box-shadow: 0 4px 10px 0 rgba(208, 188, 188, 0.589), 0 6px 20px 0 rgba(207, 183, 183, 0.817);
@@ -48,3 +55,102 @@
 .decoration{
   text-decoration:none ;
 }
+
+
+/* ==============================================  */
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding-top: 80px;
+}
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+.counts .count-box i {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #fff;
+  color: #e03a3c;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 700;
+  color: #111111;
+}
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+/* =================================================================  */
+
+#newlaunch {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  padding: 10px 20px;
+}
+
+#newlaunch:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+#newlaunch1 {
+  background-color: #ff0000;
+  padding: 10px 20px;
+  color: white;
+}
+
+#newlaunch1:hover {
+  background-color: white;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+/* ===========================================================  */
+
+#blog11 {
+  background-color: rgba(253, 255, 255, 0.845);
+}
+
+/* ---------------------------------  */
+/* .col-md-3:hover {} */
+
+
+#CRAD11:hover {
+  background-color: white;
+  color: #ff0000;
+  transition: all 1s;
+}
+
+
+
+
+
+@media only screen and (min-width: 450px) {
+  .col-sm-3 {
+      width: 100%;
+  }
+}
+
